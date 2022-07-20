@@ -1,0 +1,26 @@
+Package: fastStudentT
+Type: Package
+Title: What the package does (short line)
+Version: 0.0.99.1
+Date: 2022-07-20
+Authors@R: person("Gabriel", "Hoffman", role=c("aut", "cre"), email="gabriel.hoffman@mssm.edu")
+Description: Fast implementation to estimate parameters of Student t distribution for large datasets
+License: Artistic-2.0
+Encoding: UTF-8
+URL: https://GabrielHoffman.github.io/fastStudentT
+BugReports: https://github.com/GabrielHoffman/fastStudentT/issues
+Suggests:
+    BiocStyle,
+    knitr,
+    pander,
+    rmarkdown
+Depends:
+    R (>= 4.1.0)
+Imports: 
+	Rcpp (>= 1.0.8.3),
+	stats
+LinkingTo: 
+	Rcpp, 
+	RcppArmadillo
+SystemRequirements: C++11
+RoxygenNote: 7.2.0
